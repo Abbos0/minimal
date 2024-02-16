@@ -1,12 +1,8 @@
-.ikkiNuqta p{
-    font-size: 65px;
-    text-align: center;
-    border-radius: 50%;
-    border: 5px solid red; 
-    color: red;
-    background-color: black;
+
+.length{
+    background-color: #f5f5f5;
 }
-.ikkiNuqta{
-     margin-left: 600px;
-     margin-right: 600px;
+.learning img{
+    padding: 10px 20px;
+    width: 100px;
 }
