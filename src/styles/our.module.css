@@ -12,14 +12,12 @@
     /* border: 3px solid red; */
 }
 .card{
-    text-align: center;
-}
-.card{
     width: 300px;
     height: 300px;
     /* background-color: rgb(187, 255, 0); */
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top: 20px;
+    text-align: center;
 }
 .mainOur{
     display: flex;
@@ -29,15 +27,13 @@
 }
 .cards img{
     height: 200px;
-    width: 300px;
 }
 .card h1{
-    padding: 50px 0px;
     text-align: center;
     color:  #2c2d2fc7;
 }
 .card p{
-    margin: -40px 0px ;
     text-align: center;
     color:  #2c2d2fc7;
+    font-style: italic;
 }
