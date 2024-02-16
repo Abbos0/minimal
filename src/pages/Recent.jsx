@@ -8,6 +8,7 @@ import assets_5 from "../assets/recent_img5.jpg"
 import assets_6 from "../assets/recent_img6.jpg"
 import assets_7 from "../assets/recent_img7.jpg"
 import assets_8 from "../assets/recent_img8.jpg"
+import assets_9 from "../assets/recent_img9.jpg"
 const Recent = () => {
   return (
     <div className={styles.recent}>
@@ -68,6 +69,13 @@ const Recent = () => {
       <div className={styles.card}>
             <div className={styles.cards}>
                 <img src={assets_8} alt="alt-text-2" />
+            </div>
+            <h1>WOODS</h1>
+            <p>Photography</p>
+      </div> 
+      <div className={styles.card}>
+            <div className={styles.cards}>
+                <img src={assets_9} alt="alt-text-2" />
             </div>
             <h1>WOODS</h1>
             <p>Photography</p>
