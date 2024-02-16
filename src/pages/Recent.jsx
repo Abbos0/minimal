@@ -9,13 +9,6 @@ import assets_6 from "../assets/recent_img6.jpg"
 import assets_7 from "../assets/recent_img7.jpg"
 import assets_8 from "../assets/recent_img8.jpg"
 import assets_9 from "../assets/recent_img9.jpg"
-
-
-
-
-
-
-
 const Recent = () => {
   return (
     <div className={styles.recent}>
