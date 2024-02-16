@@ -21,56 +21,56 @@ const Recent = () => {
             <div className={styles.cards}>
                 <img src={assets_1} alt="alt-text-2" />
             </div>
-                <h1>WOODS</h1>
+                <h1>PATH</h1>
                 <p>Photography</p>
       </div> 
       <div className={styles.card}>
             <div className={styles.cards}>
                 <img src={assets_2} alt="alt-text-2" />
             </div>
-            <h1>WOODS</h1>
+            <h1>DARKNESS</h1>
                 <p>Photography</p>
       </div> 
       <div className={styles.card}>
             <div className={styles.cards}>
                 <img src={assets_3} alt="alt-text-2" />
             </div>
-            <h1>WOODS</h1>
+            <h1>WAVES</h1>
                 <p>Photography</p>
       </div> 
       <div className={styles.card}>
             <div className={styles.cards}>
                 <img src={assets_4} alt="alt-text-2" />
             </div>
-            <h1>WOODS</h1>
-                <p>Photography</p>
+            <h1>DROPS</h1>
+            <p>Photography</p>
       </div> 
       <div className={styles.card}>
             <div className={styles.cards}>
                 <img src={assets_5} alt="alt-text-2" />
             </div>
-            <h1>WOODS</h1>
+            <h1>OCEAN</h1>
                 <p>Photography</p>
       </div> 
       <div className={styles.card}>
             <div className={styles.cards}>
                 <img src={assets_6} alt="alt-text-2" />
             </div>
-            <h1>WOODS</h1>
+            <h1>TOWN</h1>
                 <p>Photography</p>
       </div> 
       <div className={styles.card}>
             <div className={styles.cards}>
                 <img src={assets_7} alt="alt-text-2" />
             </div>
-            <h1>WOODS</h1>
+            <h1>MOUNTAIN</h1>
             <p>Photography</p>
       </div> 
       <div className={styles.card}>
             <div className={styles.cards}>
                 <img src={assets_8} alt="alt-text-2" />
             </div>
-            <h1>WOODS</h1>
+            <h1>CAMERA</h1>
             <p>Photography</p>
       </div> 
       <div className={styles.card}>

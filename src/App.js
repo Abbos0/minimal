@@ -5,6 +5,7 @@ import Minimalist from "./pages/Minimalist";
 import How from "./pages/How";
 import Recent from "./pages/Recent";
 import Our from "./pages/Our";
+import I from "./pages/I";
 
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
       <How/>
       <Recent/>
       <Our/>
+      <I/>
+     
+
 
       
 </div>

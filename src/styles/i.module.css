@@ -1,0 +1,12 @@
+.ikkiNuqta p{
+    font-size: 65px;
+    text-align: center;
+    border-radius: 50%;
+    border: 5px solid red; 
+    color: red;
+    background-color: black;
+}
+.ikkiNuqta{
+     margin-left: 600px;
+     margin-right: 600px;
+}
