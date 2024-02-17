@@ -18,7 +18,7 @@ function App() {
       <How/>
       <Recent/>
       <Our/>
-      {/* <I/> */}
+      <I/>
       <Let/>
      
 
