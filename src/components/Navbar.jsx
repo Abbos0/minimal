@@ -48,10 +48,10 @@ const Navbar = () => {
         
       <div className={toggle ? styles.navItems : styles.toggle}>
         <ul>
-            <li onClick={()=>setToggle(false)}><a href='#' >PROCESS</a></li>
-            <li><a href='#' >PROJECTS</a></li>
-            <li><a href='#' >TEAM</a></li>
-            <li><a href='#' >CONTACT</a></li>
+            <li onClick={()=>setToggle(true)}><a href='#process' >PROCESS</a></li>
+            <li onClick={()=>setToggle(true)}><a href='#project' >PROJECTS</a></li>
+            <li onClick={()=>setToggle(true)}><a href='#' >TEAM</a></li>
+            <li onClick={()=>setToggle(true)}><a href='#' >CONTACT</a></li>
         </ul>
       </div>
 

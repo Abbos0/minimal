@@ -11,7 +11,7 @@ import assets_8 from "../assets/recent_img8.jpg"
 import assets_9 from "../assets/recent_img9.jpg"
 const Recent = () => {
   return (
-    <div className={styles.recent}>
+    <div className={styles.recent} id='project'>
         <div className={styles.recentt}>
             <h6>RECENT PROJECTS</h6>
             <p>__________</p>

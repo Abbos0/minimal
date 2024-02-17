@@ -11,7 +11,7 @@ import Let from "./pages/Let";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{scrollBehavior:"smooth"}}>
       <Navbar/>
       <Home/>
       <Minimalist/>
