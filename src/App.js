@@ -19,12 +19,7 @@ function App() {
       <How/>
       <Recent/>
       <Our/>
-<<<<<<< HEAD
-      {/* <I/> */}
       <Example/>
-=======
-      <I/>
->>>>>>> ff797e05004cf32c8d2ca95c79defbbbd29d9838
       <Let/>
      
 
