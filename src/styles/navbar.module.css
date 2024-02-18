@@ -74,7 +74,11 @@
     color: white;
     font-size: 30px;
     text-decoration: none;
-    padding: 3px;
+    padding: 3px;    
+}
+.icon i{
+    color: white;
+    font-size: 30px;
 }
 .bar{
     display: none;
@@ -134,11 +138,11 @@
     .navItems {
         /* top: 100px; */
         /* left: 0; */
-        top: -250%;
+        top: -2500%;
         position: absolute;
         background-color: black;
         width: 100%;
-        height: calc(100vh - 250px);
+        height: calc(100vh - 2500px);
         transition: 0.5s;
         left: 0px;
     }
@@ -163,6 +167,16 @@
         /* height: calc(100vh - 100px); */
         height:200px;
         gap: 20px;
+        color: white;    
+    }
+    .navItems ul li a,
+    .toggle ul li a{
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .navItems ul li a:hover,
+    .toggle ul li a:hover{
+        color: orange   ;
     }
     .logo img{
         width: 80px;
