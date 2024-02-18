@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-<<<<<<< HEAD
+
 
 #app {
   height: 100%;
@@ -46,7 +46,7 @@ body {
   /* height: 100%; */
   /* object-fit: cover; */
 }
-=======
+
 html {
   scroll-behavior: smooth;
 }
@@ -71,4 +71,5 @@ html {
     height: 100%; */
     object-fit: cover;
   }
->>>>>>> ff797e05004cf32c8d2ca95c79defbbbd29d9838
+
+ 
