@@ -7,6 +7,7 @@ import Recent from "./pages/Recent";
 import Our from "./pages/Our";
 import I from "./pages/I";
 import Let from "./pages/Let";
+import Example from "./pages/Example";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Recent/>
       <Our/>
       {/* <I/> */}
+      <Example/>
       <Let/>
      
 
