@@ -53,7 +53,7 @@ const MyComponent = () => {
       });
   };
   return (
-    <div className={styles.form}>
+    <div className={styles.form} id='send'>
       <p className="sec-text">{text}</p>
       <form onSubmit={handleSubmit}>
         <input

@@ -39,7 +39,7 @@ const Navbar = () => {
         <div className={styles.logo}>
             <img src={Logo} alt='Logo'/>
             <br/>
-            <p>Minimal</p>
+            <p onClick={()=>setToggle(true)}><a href='#send'>Minimal</a></p>
         </div>
       <div className={toggle ? styles.navItems : styles.toggle}>
         <ul>
@@ -49,14 +49,12 @@ const Navbar = () => {
             <li onClick={()=>setToggle(true)}><a href='#let'>CONTACT</a></li>
         </ul>
       </div>
-        <div className={styles.icon}>
-          <i><FaInstagram /></i>
-          <i><FaTelegram /></i>
-          <i className={styles.bar} onClick={()=>setToggle(!toggle)}><FaBars /></i>
+      <div className={styles.icon}>
+        <i><a href="https://t.me/boss0_002"><FaTelegram/></a></i>
+        <i><a href="https://www.instagram.com/abbos_boss002"><FaInstagram /></a></i>
       </div>
     </div>
-    </div>
+  </div>
   )
 }
-
 export default Navbar
