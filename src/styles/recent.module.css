@@ -1,9 +1,9 @@
 .recent{
     scroll-behavior: inherit;
-scroll-behavior: initial;
-scroll-behavior: revert;
-scroll-behavior: revert-layer;
-scroll-behavior: unset;
+    scroll-behavior: initial;
+    scroll-behavior: revert;
+    scroll-behavior: revert-layer;
+    scroll-behavior: unset;
 }
 .mainRecent{
     background-color: #f5f5f5;
@@ -51,7 +51,4 @@ scroll-behavior: unset;
     margin: -40px 0px ;
     text-align: center;
     color:  #2c2d2fc7;
-}
-@media screen and (max-width:768px){
-    
 }

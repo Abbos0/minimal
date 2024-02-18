@@ -7,6 +7,7 @@ import Recent from "./pages/Recent";
 import Our from "./pages/Our";
 import Let from "./pages/Let";
 import Example from "./pages/Example";
+import Send from "./pages/Send";
 
 
 function App() {
@@ -20,10 +21,7 @@ function App() {
       <Our/>
       <Example/>
       <Let/>
-     
-
-
-      
+      <Send/>
 </div>
   );
 }

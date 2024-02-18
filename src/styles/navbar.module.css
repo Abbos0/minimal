@@ -1,4 +1,3 @@
-
 .nav{
     position: fixed;
     top: 0;
@@ -11,7 +10,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px 30px ;
-    background-color: aqua;
+    background-color: rgba(0, 0, 0,0.76);
     height: 100px;
     position: relative;
 }
@@ -31,7 +30,7 @@
     font-weight: 600;
 }
 .logo img{
-    width: 200px;
+    width: 100px;
     height: 100px;
 }
 .logo p{
@@ -50,6 +49,7 @@
     font-weight: 600;
     color: white;
     transition: 0.3s;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .navbar .navItems ul li a,
 .navar .toggle ul li a{
@@ -72,15 +72,28 @@
 }
 .bar{
     display: none;
+    color: white;
 }
 .navbar .icon{
-    color: black;
+    color: white;
     display: flex;
     gap: 10px;
     font-size: 30px;
 }
-
-
+@media screen and (max-width:936px) {
+    .navItems ul li a,
+    .toggle ul li a{
+        font-size: 20px;
+    }
+    .logo img{
+        width: 50px;
+        height: 30px;
+    }
+    .logo p{
+        font-size: 15px;
+        padding-left: 3px;
+    }
+}
 @media screen and (max-width:912px) {
     .navItems ul li a,
     .toggle ul li a{
@@ -146,8 +159,8 @@
         gap: 20px;
     }
     .logo img{
-        width: 50px;
-        height: 30px;
+        width: 80px;
+        height: 80px;
     }
     .logo p{
         font-size: 15px;

@@ -1,12 +1,11 @@
 
-
 import React, { useEffect, useState } from 'react'
-import Logo from "../assets/logo.jfif"
+
+import Logo from "../assets/yulbars.png"
+
 import { FaInstagram, FaTelegram , FaBars } from "react-icons/fa";
+
 import styles from "../styles/navbar.module.css"
-
-
-
 
 const Navbar = () => {
     const [toggle,setToggle] = useState(true)
@@ -25,7 +24,6 @@ const Navbar = () => {
       }
     };
 
-
     useEffect(()=> {
       handleScroll();
       window.addEventListener("scroll", handleScroll);
@@ -36,8 +34,6 @@ const Navbar = () => {
     },[])
 
   return (
-
-
     <div className={styles.nav}>
       <div className={scroll ? styles.navbar : styles.navbarScroll}>
         <div className={styles.logo}>
@@ -45,16 +41,14 @@ const Navbar = () => {
             <br/>
             <p>Minimal</p>
         </div>
-        
       <div className={toggle ? styles.navItems : styles.toggle}>
         <ul>
-            <li onClick={()=>setToggle(true)}><a href='#process' >PROCESS</a></li>
-            <li onClick={()=>setToggle(true)}><a href='#project' >PROJECTS</a></li>
-            <li onClick={()=>setToggle(true)}><a href='#' >TEAM</a></li>
-            <li onClick={()=>setToggle(true)}><a href='#' >CONTACT</a></li>
+            <li onClick={()=>setToggle(true)}><a href='#how'>PROCESS</a></li>
+            <li onClick={()=>setToggle(true)}><a href='#recent'>PROJECTS</a></li>
+            <li onClick={()=>setToggle(true)}><a href='#our'>TEAM</a></li>
+            <li onClick={()=>setToggle(true)}><a href='#let'>CONTACT</a></li>
         </ul>
       </div>
-
         <div className={styles.icon}>
           <i><FaInstagram /></i>
           <i><FaTelegram /></i>
