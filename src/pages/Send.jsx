@@ -60,24 +60,28 @@ const MyComponent = () => {
           type="text"
           id={styles.username}
           value={username}
+          required
           onChange={(e) => setUsername(e.target.value)}
           placeholder="Name" />
         <input
           type="email"
           id={styles.email}
           value={email}
+          required
           onChange={(e) => setEmail(e.target.value)}
           placeholder="Email" />
         <input
           type="tel"
           id={styles.call}
           value={call}
+          required
           onChange={(e) => setCall(e.target.value)}
           placeholder="Phone" />
         <textarea
           className={styles.textarea}
           id={styles.messagetext}
           value={messagetext}
+          required
           onChange={(e) => setMessagetext(e.target.value)}
           placeholder="Message" ></textarea>
         <br />
