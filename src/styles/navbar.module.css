@@ -133,7 +133,7 @@
         height: 100px;
     }
     .bar{
-        display: block;
+        display: inline-block;
     }
     .navItems {
         /* top: 100px; */
