@@ -49,7 +49,7 @@ const MyComponent = () => {
         setCall('');
         setMessagetext('');
         setCheckbox(false);
-        toast.success("kutib turing")
+        toast.success(" Please wait a moment!!!")
       })
       .catch((error) => {
         console.error('Error sending message:', error);
@@ -57,7 +57,7 @@ const MyComponent = () => {
   };
   return (
     <div className={styles.form} id='send'>
-      <ToastContainer style={{ width: "500px", height:"50px" }} />
+      <ToastContainer style={{ width: "400px", height:"20px" }} />
       <p className="sec-text">{text}</p>
       <form onSubmit={handleSubmit}>
         <input
@@ -67,7 +67,7 @@ const MyComponent = () => {
           required
           onChange={(e) => setUsername(e.target.value)}
           placeholder="Name" />
-        <input
+         <input
           type="email"
           id={styles.email}
           value={email}
@@ -88,7 +88,7 @@ const MyComponent = () => {
           required
           onChange={(e) => setMessagetext(e.target.value)}
           placeholder="Message" ></textarea>
-        <br />
+        <br /> 
         <button type="submit">Send Message</button>
         <div className={styles.login}>
             <img src={assets_1} alt="logo" />
