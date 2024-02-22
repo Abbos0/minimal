@@ -1,6 +1,8 @@
 import assets_1 from "../assets/student.3.webp"
 import React, { useState, useEffect } from 'react';
 import styles from "../styles/send.module.css"
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const MyComponent = () => {
   const [text, setText] = useState(' ');
   const [username, setUsername] = useState('');
@@ -47,6 +49,7 @@ const MyComponent = () => {
         setCall('');
         setMessagetext('');
         setCheckbox(false);
+        toast.success("kutib turing")
       })
       .catch((error) => {
         console.error('Error sending message:', error);
@@ -54,6 +57,7 @@ const MyComponent = () => {
   };
   return (
     <div className={styles.form} id='send'>
+      <ToastContainer style={{ width: "500px", height:"50px" }} />
       <p className="sec-text">{text}</p>
       <form onSubmit={handleSubmit}>
         <input
