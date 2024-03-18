@@ -8,7 +8,7 @@ const How = () => {
     <div className={styles.mainhow} id='how'>
       <div className={styles.how}>
         <h6>HOW WE MAKE BRANDS THRIVE</h6>
-        <p>__________</p>
+        <hr />
       </div>
       <div className={styles.cardContainer}>
         <div className={styles.card}>

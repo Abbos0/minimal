@@ -51,6 +51,7 @@ button:hover{
 }
 .login img{
     width: 100px;
+    margin: auto;
 } 
 .login p{
     padding: 20px;

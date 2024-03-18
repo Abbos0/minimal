@@ -14,7 +14,7 @@ const Recent = () => {
     <div className={styles.recent}id='recent' >
         <div className={styles.recentt} >
             <h6>RECENT PROJECTS</h6>
-            <p>__________</p>
+            <hr />
         </div>
         <div className={styles.mainRecent}>
             <div className={styles.card}>

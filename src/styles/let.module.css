@@ -7,10 +7,17 @@
     font-size: 30px;
     color: rgb(55, 53, 51);
 }
+hr{
+    height: 2px;
+    width: 200px;
+    margin: 10px auto;
+    border: none;
+    background-color: #707070;
+}
 .card{
-    width: 300px ;
     height: 400px;
-    margin-left: 30px;
+    margin-left: 60px;
+    text-align: center;
 }
 .cardContainer{
     display: flex;
@@ -25,6 +32,8 @@
 .cards i{
     font-size: 70px;
     color: white;
+    display: flex;
+    justify-content: center;
 }
 .card h1{
     padding: 10px 10px;
@@ -44,9 +53,10 @@
     text-align: center;
     color:  #2c2d2fc7;
 }
-.heart{
-    display: grid;
+.heart i {
+    display: flex;
     justify-content: center;
+    margin: auto;
     gap: 10px;
     cursor: pointer;
 }

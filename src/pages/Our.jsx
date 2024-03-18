@@ -19,7 +19,7 @@ const Our = () => {
     <div id='our'>
         <div className={styles.recentt}>
             <h6>OUR TEAM</h6>
-            <p>__________</p>
+            <hr />
         </div>
         <div className={styles.mainOur}>
             <div className={styles.card}>
@@ -28,11 +28,11 @@ const Our = () => {
                 </div>
                 <h1>RON SWANSON</h1>
                 <p>Founder</p>
-                <div className={styles.icon}>
+                {/* <div className={styles.icon}>
                     <i><FaTwitter /></i>
                     <i><FaLinkedinIn /></i>
                     <i><MdEmail/></i>
-                </div>
+                </div> */}
             </div> 
             <div className={styles.card}>
                 <div className={styles.cards}>
@@ -40,11 +40,11 @@ const Our = () => {
                 </div>
                 <h1>JULIA DEPISH</h1>
                 <p>Marketing</p>
-                <div className={styles.icon}>
+                {/* <div className={styles.icon}>
                     <i><FaTwitter /></i>
                     <i><FaLinkedinIn /></i>
                     <i><MdEmail/></i>
-                </div>
+                </div> */}
             </div> 
             <div className={styles.card}>
                 <div className={styles.cards}>
@@ -52,13 +52,13 @@ const Our = () => {
                 </div>
                 <h1>DANNY DEVRY</h1>
                 <p>Designer</p>
-                <div className={styles.icon}>
+                {/* <div className={styles.icon}>
                     <i><TfiInstagram /></i>
                     <i><FaTwitter /></i>
                     <i><AiOutlineBehance /></i>
                     <i><FaDribbble /></i>
                     <i><MdEmail/></i>
-                </div>
+                </div> */}
             </div> 
             <div className={styles.card}>
                 <div className={styles.cards}>
@@ -66,11 +66,11 @@ const Our = () => {
                 </div>
                 <h1>LISA SMITH</h1>
                 <p>Developer</p>
-                <div className={styles.icon}>
+                {/* <div className={styles.icon}>
                     <i><FaFacebook /></i>
                     <i><FaTwitter /></i>
                     <i><MdEmail/></i>
-                </div>
+                </div> */}
             </div> 
         </div>
     </div>

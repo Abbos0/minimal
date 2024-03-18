@@ -50,8 +50,8 @@ const Navbar = () => {
         </ul>
       </div>
       <div className={styles.icon}>
-        <i><a href="https://t.me/boss0_002"><FaTelegram/></a></i>
-        <i><a href="https://www.instagram.com/abbos_boss002"><FaInstagram /></a></i>
+        <i><a target='blank' href="https://t.me/boss0_002"><FaTelegram/></a></i>
+        <i><a target='blank' href="https://www.instagram.com/abbos_boss002"><FaInstagram /></a></i>
         <i className={styles.bar} onClick={() => setToggle(!toggle)}><FaBars /></i>
       </div>
     </div>

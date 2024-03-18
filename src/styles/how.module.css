@@ -4,9 +4,15 @@
     font-size: 30px;
     color: rgb(55, 53, 51);;
 }
+hr{
+    height: 2px;
+    width: 200px;
+    margin: 10px auto;
+    border: none;
+    background-color: #707070;
+}
 .card{
     width: 300px ;
-    height: 400px;
     margin-left: 30px;
     border-radius:10px;
 }
@@ -26,21 +32,21 @@
     margin: 50px 70px;
 }
 .card h1{
-    padding: 20px 0px;
     text-align: center;
     color:  #2c2d2fc7;
 }
 .card p{
-    padding: 20px 0px;
     text-align: center;
     color:  #2c2d2fc7;
+    margin-top: -50px;
+    padding: 10px;
 }
 .mainhow .card{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    height: 600px;
+    height: 500px;
 }
 @media screen and (max-width:768px) {
     .card{

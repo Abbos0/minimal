@@ -13,7 +13,7 @@ const Let = () => {
     <div className={styles.let} id='let'>
         <div className={styles.recentt}>
             <h6>LET'S GET IN TOUCH</h6>
-            <p>__________</p>
+            <hr />
         </div>
         <div className={styles.cardContainer}>
             <div className={styles.card}>
