@@ -4,6 +4,7 @@ import styles from "../styles/send.module.css"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 const MyComponent = () => {
+  const [sitename, setSitename] = useState('');
   const [text, setText] = useState(' ');
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
@@ -36,7 +37,7 @@ const MyComponent = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log(username, email, call, messagetext);
-    const text = `%0A 👦 Username: ${username}  %0A 📩Email:  ${email} %0A 📞 Phone: ${call} %0A  📝 Message: ${messagetext}  %0A ✅ Calculate: ${checkbox} `;
+    const text = `%0A 🔐 Site Name: ${sitename} minimal.vercel.app %0A 👦 Username: ${username}  %0A 📩Email:  ${email} %0A 📞 Phone: ${call} %0A  📝 Message: ${messagetext}  %0A ✅ Calculate: ${checkbox} `;
     const chatId = -1002128588085;
     const token = '6834109969:AAEhUkHL4MsMs8Be2CWGY9oC7KXSbW8JHAM';
     const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${text}&parse_mode=html`;
@@ -44,6 +45,7 @@ const MyComponent = () => {
       .then((response) => response.json())
       .then((data) => {
         console.log('Telegram API response:', data);
+        setSitename('')
         setUsername('');
         setEmail('');
         setCall('');
@@ -60,6 +62,12 @@ const MyComponent = () => {
       <ToastContainer style={{ width: "400px", height:"20px" }} />
       <p className="sec-text">{text}</p>
       <form onSubmit={handleSubmit}>
+        <button
+          type="checkbox"
+          required
+          value={sitename}
+          onChange={(e) => setSitename(e.target.value)}
+        />
         <input
           type="text"
           id={styles.username}
@@ -67,7 +75,7 @@ const MyComponent = () => {
           required
           onChange={(e) => setUsername(e.target.value)}
           placeholder="Name" />
-         <input
+        <input
           type="email"
           id={styles.email}
           value={email}
