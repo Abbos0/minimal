@@ -37,7 +37,7 @@ const MyComponent = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log(username, email, call, messagetext);
-    const text = `%0A 🔐 Site Name: ${sitename} https://minimal-phi-two.vercel.app %0A 👦 Username: ${username}  %0A 📩Email:  ${email} %0A 📞 Phone: ${call} %0A  📝 Message: ${messagetext}  %0A ✅ Calculate: ${checkbox} `;
+    const text = `%0A 🔐 Site Name: ${sitename} minimal-phi-two.vercel.app %0A 👦 Username: ${username}  %0A 📩Email:  ${email} %0A 📞 Phone: ${call} %0A  📝 Message: ${messagetext}  %0A ✅ Calculate: ${checkbox} `;
     const chatId = -1002128588085;
     const token = '6834109969:AAEhUkHL4MsMs8Be2CWGY9oC7KXSbW8JHAM';
     const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${text}&parse_mode=html`;
